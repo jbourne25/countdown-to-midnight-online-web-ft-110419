@@ -12,7 +12,6 @@ end
 def countdown_with_sleep(t)
   loop do
     t = Time.now 
-    t > 0 
    # sleep(t + 1 - time.now)
   puts "#{t} SECOND(S)!"
   end 
