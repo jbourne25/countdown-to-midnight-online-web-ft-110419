@@ -9,10 +9,6 @@ end
 
 #def countdown
 #end
-def countdown_with_sleep(t)
-  loop do
-    t = Time.now 
-   # sleep(t + 1 - time.now)
- # puts "#{t} SECOND(S)!"
-  end 
+def countdown_with_sleep(x) 
+  sleep x 
 end 
